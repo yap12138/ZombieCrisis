@@ -1,0 +1,12 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+
+
+.button{
+    -fx-opacity:0.6;
+    -fx-border-radius:10;
+    -fx-image-borders:10;
+    -fx-blend-mode:exclusion;
+}

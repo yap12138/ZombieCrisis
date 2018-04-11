@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" cacheShape="false" centerShape="false" prefHeight="768.0" prefWidth="1230.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+  
+   <children>
+      <Label layoutX="419.0" layoutY="-18.0" prefHeight="253.0" prefWidth="412.0" text="  游戏帮助" textFill="WHITE" AnchorPane.bottomAnchor="533.0" AnchorPane.leftAnchor="419.0" AnchorPane.rightAnchor="449.0" AnchorPane.topAnchor="-18.0">
+         <font>
+            <Font size="78.0" />
+         </font>
+      </Label>
+      <Button id="backBtn" fx:id="backBtn" layoutX="1131.0" layoutY="671.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="91.0" text="BACK" />
+      <Label layoutX="90.0" layoutY="540.0" prefHeight="177.0" prefWidth="343.0" text="本游戏由 四个傻屌之阿姆斯特朗回旋联盟制作       制作人员：邓晓城，冯文涛，何增杰，黄崇彬" textFill="WHITE" wrapText="true" />
+      <Label layoutX="320.0" layoutY="212.0" prefHeight="46.0" prefWidth="591.0" text="·你可以通过上下左右四个方向键控制人物的移动，攻击键射击，有两个轮盘键切换武器" textFill="WHITE" />
+      <Label layoutX="320.0" layoutY="258.0" prefHeight="46.0" prefWidth="559.0" text="·你可以在设置界面设置你喜欢的键位 " textFill="WHITE" />
+      <Label layoutX="320.0" layoutY="304.0" prefHeight="46.0" prefWidth="559.0" text="·地图上会随机生成buff包和弹药包" textFill="WHITE" />
+      <Label layoutX="320.0" layoutY="350.0" prefHeight="46.0" prefWidth="559.0" text="·buff包内有加速，减速，加血三种buff，每个buff包随机含有一种buff " textFill="WHITE" />
+      <Label layoutX="320.0" layoutY="396.0" prefHeight="46.0" prefWidth="559.0" text="·弹药包内含随机一种武器的子弹 " textFill="WHITE" />
+      <Label layoutX="320.0" layoutY="442.0" prefHeight="90.0" prefWidth="452.0" text="·你可以各种武器搭配使用消灭僵尸来获得分数，如果你的分数足够高，那在游戏结束之后你的大名将会被写入我们的排行榜！运用你的操作和勇气，不断地挑战巅峰吧！" textFill="WHITE" wrapText="true" />
+   </children>
+</AnchorPane>

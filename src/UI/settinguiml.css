@@ -1,0 +1,15 @@
+
+
+.button{  
+    -fx-text-fill: #006464;  
+    -fx-background-radius: 15;  
+    -fx-padding: 5;  
+    -fx-opacity:1;
+}  
+
+
+
+.lable{
+    -fx-text-fill:#ffffff;
+}
+

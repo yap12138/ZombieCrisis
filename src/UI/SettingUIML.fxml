@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="setPane" fx:id="setPane" prefHeight="768.0" prefWidth="1280.0" styleClass="mainFxmlClass" stylesheets="@settinguiml.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button id="KeyDown" fx:id="KeyDown" layoutX="285.0" layoutY="513.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="63.0" text="Down" />
+      <Button id="KeyLeft" fx:id="KeyLeft" layoutX="140.0" layoutY="513.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="63.0" text="Left" />
+      <Button id="KeyRight" fx:id="KeyRight" layoutX="431.0" layoutY="513.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="63.0" text="Right" />
+      <Button id="KeyUp" fx:id="KeyUp" layoutX="285.0" layoutY="366.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="63.0" text="Up" />
+      <Button id="LastWeapon" fx:id="LastWeapon" layoutX="807.0" layoutY="366.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="74.0" text="U" />
+      <Button id="Attack" fx:id="Attack" layoutX="910.0" layoutY="513.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="74.0" text="J" />
+      <Button id="NextWeapon" fx:id="NextWeapon" layoutX="1002.0" layoutY="366.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="74.0" text="I" />
+      <Label id="setTitle" fx:id="setTitle" layoutX="245.0" layoutY="55.0" prefHeight="256.0" prefWidth="759.0" text="            游戏设置" textFill="WHITE" wrapText="true">
+         <font>
+            <Font size="70.0" />
+         </font>
+      </Label>
+      <Button fx:id="BACK" layoutX="1076.0" layoutY="640.0" mnemonicParsing="false" prefHeight="75.0" prefWidth="123.0" text="BACK" />
+      <Label layoutX="129.0" layoutY="463.0" prefHeight="43.0" prefWidth="85.0" text="  左方向键" textAlignment="CENTER" textFill="WHITE" />
+      <Label layoutX="274.0" layoutY="463.0" prefHeight="43.0" prefWidth="85.0" text="  下方向键" textAlignment="CENTER" textFill="WHITE" />
+      <Label layoutX="274.0" layoutY="311.0" prefHeight="43.0" prefWidth="85.0" text="  上方向键" textAlignment="CENTER" textFill="WHITE" />
+      <Label layoutX="420.0" layoutY="463.0" prefHeight="43.0" prefWidth="85.0" text="  右方向键" textAlignment="CENTER" textFill="WHITE" />
+      <Label layoutX="802.0" layoutY="311.0" prefHeight="43.0" prefWidth="85.0" text="  上一武器" textAlignment="CENTER" textFill="WHITE" />
+      <Label layoutX="997.0" layoutY="311.0" prefHeight="43.0" prefWidth="85.0" text="  下一武器" textAlignment="CENTER" textFill="WHITE" />
+      <Label layoutX="905.0" layoutY="463.0" prefHeight="43.0" prefWidth="85.0" text="    攻击键" textAlignment="CENTER" textFill="WHITE" />
+   </children>
+</AnchorPane>

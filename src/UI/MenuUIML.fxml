@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="menupane" fx:id="menupane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1280.0" stylesheets="@menuuiml.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="UI.MenuUIMLController">
+   <children>
+      <Button id="startBtn" fx:id="startBtn" alignment="CENTER" layoutX="503.0" layoutY="350.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="279.0" stylesheets="@menuuiml.css">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets></Button>
+      <Button id="rankBtn" fx:id="rankBtn" layoutX="503.0" layoutY="590.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="279.0" stylesheets="@menuuiml.css" />
+      <Button id="setBtn" fx:id="setBtn" layoutX="503.0" layoutY="430.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="279.0" stylesheets="@menuuiml.css" />
+      <Button id="helpBtn" fx:id="helpBtn" layoutX="503.0" layoutY="510.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="279.0" stylesheets="@menuuiml.css" />
+      <Button id="quitBtn" fx:id="quitBtn" graphicTextGap="5.0" layoutX="503.0" layoutY="670.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="279.0" stylesheets="@menuuiml.css" />
+      <Button id="soundBtn" fx:id="soundBtn" layoutX="1174.0" layoutY="14.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="79.0" text="Music" />
+   </children>
+</AnchorPane>

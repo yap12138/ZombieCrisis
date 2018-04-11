@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="pane" prefHeight="768.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="UI.GameController">
+   <children>
+      <ImageView fx:id="map" fitHeight="768.0" fitWidth="1280.0" layoutX="1.0" pickOnBounds="true" preserveRatio="true">
+        
+      </ImageView>
+      <Button id="MusicBtn" fx:id="MusicBtn" layoutX="1138.0" layoutY="-1.0" mnemonicParsing="false" text="Music" />
+      <ProgressBar id="HPBar" fx:id="HPBar" layoutX="1.0" layoutY="743.0" prefWidth="200.0" progress="1.0" />
+      <Pane id="userPane" fx:id="userPane" layoutX="453.0" layoutY="284.0" prefHeight="200.0" prefWidth="375.0" visible="false">
+         <children>
+            <Button id="confirmBtn" fx:id="confirmBtn" layoutX="153.0" layoutY="143.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="71.0" text="确定" />
+            <TextField id="nameTextField" fx:id="nameTextField" layoutX="22.0" layoutY="85.0" />
+            <Label layoutX="22.0" layoutY="37.0" prefHeight="30.0" prefWidth="171.0" text="请输入您的名字：" />
+         </children>
+      </Pane>
+      <ImageView id="WeaponImage" fx:id="WeaponImage" fitHeight="64.0" fitWidth="64.0" layoutX="1042.0" layoutY="647.0" pickOnBounds="true" preserveRatio="true" />
+      <Label id="UPText" fx:id="UPText" layoutX="965.0" layoutY="651.0" prefHeight="20.0" prefWidth="77.0" text="Label" />
+      <Label id="DOWNText" fx:id="DOWNText" layoutX="965.0" layoutY="691.0" prefHeight="20.0" prefWidth="77.0" text="Label" />
+      <Label id="AMMOText" fx:id="AMMOText" layoutX="1112.0" layoutY="669.0" prefHeight="20.0" prefWidth="136.0" text="Label" />
+      <Label id="ScoreLabel" fx:id="ScoreLabel" layoutX="37.0" layoutY="-1.0" prefHeight="30.0" prefWidth="114.0" text="Score：0" textFill="WHITE" />
+
+   </children>
+</AnchorPane>
